@@ -1,4 +1,4 @@
-# Возведение числа в куб
+# Функция возведения числа в куб
 def step3(number):
   # n = number * number * number 
   return number ** 3  # # возвращать полученное число number в кубе
