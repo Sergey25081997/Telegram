@@ -1,11 +1,23 @@
-# Функция возведения числа в куб
-def step3(number):
-  # n = number * number * number 
-  return number ** 3  # # возвращать полученное число number в кубе
+# Генератор инициалов
 
-numbers = [1, 2, 4, 5, 8]
-numbers_step3 = [] # [1, 8, 64, 125, 512]
-for num in numbers:
-  num_step3 = step3(num)
-  numbers_step3.append(num_step3)
-print(numbers_step3) # [1, 8, 64, 125, 512]
+### Описание
+Проект берет на вход файл `names.txt` с форматом имен, пример которых есть в `names.txt.example`, и преобразует их в инициалы по примеру в `in_names.txt.example`
+
+###
+Запуск
+1. Создание окружения
+```bash
+py -3.13 -m venv .venv
+```
+2. Активация окружения
+```bash
+.venv\Scripts\activate
+```
+3. Переход в папку с исходным кодом
+```bash
+cd src
+```
+4. Запуск
+```bash
+python main.py
+```
